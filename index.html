@@ -1,0 +1,243 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>SportsPrimus</title>
+
+	<!-- boostrap -->
+	<link href="public/css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- font awesome -->
+	<link href="public/css/all.css" rel="stylesheet">
+
+	<!-- folha de estilo propria -->
+	<link href="public/css/estilo.css" rel="stylesheet">
+
+	<!-- favicon -->
+	<link href="public/img/favicon.png" rel="icon">
+
+</head>
+<body>
+	<!-- inicio menu -->
+	<nav class="navbar navbar-dark navbar-expand-lg navbar-default fixed-top">
+		<div class="container-fluid">
+			<!-- logo -->
+			<a class="navbar-logo">SportsPrimus</a>	
+			<a class="navbar-brand" href="#">
+			<!-- <img src="public/img/new_logo.svg"> -->
+			</a>
+
+			<!-- botao para menu no celular -->
+			<button class="navbar-toggler" data-toggle="collapse" data-target="#menu" aria-expanded="false">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<!-- menu -->
+			<div class="collapse navbar-collapse" id="menu">
+				<ul class="navbar-nav ml-md-auto text-light">
+					<li class="nav-item">
+						<a class="nav-link" href="#">Sports</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Femmes</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Hommes</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Enfants</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Accessoires</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Marques</a>
+					</li>					
+					<li class="nav-item">
+						<a class="nav-link" href="#">Circulaires</a>
+					</li>	
+					<li class="nav-item">
+						<a class="nav-link" href="#">Se connecter</a>
+					</li>
+					<form class="form-inline">
+					<div class="input-group">
+						<input type="text" placeholder="Recherchez nos produits" name="rechercher" class="form-control input-group-prepend">
+						<button class="btn btn-success input-group-append" type="submit">Rechercher</button>
+						<!-- <input type="submit" class="btn btn-success input-group-append"> -->
+					</div>
+					</form>
+
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!-- fim menu -->
+
+	<!-- inicio header -->
+	<header>
+		<div class="container">
+			<div class="row">
+				<!--texto-->
+				<div class="col-lg-5 col-12 text-light jumbotron bg-transparent">
+					<span class="btn btn-success btn-sm">Profitez de l'été et mettez-vous en forme</span>
+					<h1>Faites du sport avec le meilleur produit</h1>
+					<p class="text-dark">Profitez de notre baisse de prix et achetez les meilleurs produits pour votre sport préféré. Le meilleur rapport qualité / prix pour un produit de haute qualité.</p>
+					<a href="#course" class="btn btn-dark btn-lg">Découvrez nos produits</a>
+				</div>
+
+				<!--carrosel-->
+				<div class="col-lg-7 col-12">
+					<div id="img-home" class="carousel slide" data-ride="carousel">
+						<ol class="carousel-indicators">
+							<li data-target="#img-home" data-slide-to="0" class="active"></li>
+							<li data-target="#img-home" data-slide-to="1"></li>
+							<li data-target="#img-home" data-slide-to="2"></li>
+						</ol>
+
+						<div class="carousel-inner">
+							<!-- imagem 01 -->
+							<div class="carousel-item active">
+								<img class="img-fluid" src="public/img/activite.jpg" style="max-height: 400px">
+								<div class="carousel-caption">
+									<h5 class="text-dark">Choisissez votre chaussure de course idéale</h5>
+									<a class="text-light" href="#course">Magazinez</a>
+								</div>
+							</div>
+
+							<!-- imagem 02 -->
+							<div class="carousel-item">
+								<img class="img-fluid" src="public/img/pleinair.jpg" style="max-height: 400px">
+								<div class="carousel-caption">
+									<h5 class="text-light">Profitez du beau temps et faites du sport en plein air</h5>
+									<a class="text-light" href="#course">Magazinez</a>
+								</div>
+							</div>
+
+							<!-- imagem 03 -->
+							<div class="carousel-item">
+								<img class="img-fluid"  src="public/img/etire.jpg" style="max-height: 400px">
+								<div class="carousel-caption">
+									<h5 class="text-light">L'importance de l'étirement!</h5>
+
+									<a class="text-light" href="#course">Découvrez</a>
+								</div>
+							</div>
+						</div>
+					</div>	
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- fim header -->
+
+	<!-- inicio cursos -->
+	<div id="course" class="container">
+		<div class="row">
+			<!-- card 1 -->
+			<div class="col-lg-3 col-md-6 col-12">
+				<div class="btn btn-info">LIQUIDATION</div>
+				<div class="card">
+					<img src="public/img/tennisadidas.jpg" class="card-img-top">
+
+					<div class="card-body">
+						<h5 class="card-title">
+							Adidas
+							<br>
+							<i class="fas fa-star text-warning"></i>
+							<i class="fas fa-star text-warning"></i>
+							<i class="fas fa-star text-warning"></i>
+							<i class="fas fa-star text-warning"></i>
+							<i class="fas fa-star text-warning"></i>
+						</h5>
+						<p class="card-text">Chaussures Adidas UltraBoost 20 pour homme - 199,99 $</p>
+						<!-- <p class="card-text">$ 199,99</p> -->
+
+						<a href="#" class="btn btn-outline-info">Acheter</a>	
+					</div>
+				</div>
+			</div>
+			<!-- fim card 1 -->
+
+			<!-- card 2 -->
+			<div class="col-lg-3 col-md-6 col-12">
+				<div class="btn btn-info">LIQUIDATION</div>
+				<div class="card">
+					<img src="public/img/legging.jpg" class="card-img-top">
+
+					<div class="card-body">
+						<h5 class="card-title">
+							Oxer
+							<br>
+							<i class="fas fa-star text-warning"></i>
+							<i class="fas fa-star text-warning"></i>
+							<i class="fas fa-star text-warning"></i>
+							<i class="fas fa-star text-warning"></i>
+							<i class="fas fa-star text-warning"></i>
+						</h5>
+						<p class="card-text">Legging Oxer pour femme - 39,99 $</p>
+						<a href="#" class="btn btn-outline-info">Acheter</a>
+					</div>
+				</div>
+			</div>
+			<!-- fim card 2 -->
+
+			<!-- card 3 -->
+			<div class="col-lg-3 col-md-6 col-12">
+				<div class="btn btn-info">LIQUIDATION</div>
+				<div class="card">
+					<img src="public/img/velo.jpg" class="card-img-top">
+
+					<div class="card-body">
+						<h5 class="card-title">
+							Viking 
+							<br>
+							<i class="fas fa-star text-warning"></i>
+							<i class="fas fa-star text-warning"></i>
+							<i class="fas fa-star text-warning"></i>
+							<i class="fas fa-star text-warning"></i>
+							<i class="fas fa-star-half text-warning"></i>
+						</h5>
+						<p class="card-text">29” Viking Pro Trail Vélo en Aluminium Bleu - 399,99 $</p>
+						<a href="#" class="btn btn-outline-info">Acheter</a>
+					</div>
+				</div>
+			</div>
+			<!-- fim card 3 -->
+
+			<!-- card 4 -->
+			<div class="col-lg-3 col-md-6 col-12">
+				<div class="btn btn-info">LIQUIDATION</div>
+				<div class="card">
+					<img src="public/img/montre.png" class="card-img-top">
+
+					<div class="card-body">
+						<h5 class="card-title">
+							Garmin
+							<br>
+							<i class="fas fa-star text-warning"></i>
+							<i class="fas fa-star text-warning"></i>
+							<i class="fas fa-star text-warning"></i>
+							<!-- <i class="fas fa-star text-warning"></i> -->
+							<i class="fas fa-star-half text-warning"></i>
+						</h5>
+						<p class="card-text">Montre de course GPS Forerunner 235 - 259,79 $</p>
+						<a href="#" class="btn btn-outline-info">Acheter</a>
+					</div>
+				</div>
+			</div>
+			<!-- fim card 4 -->
+		</div>
+		
+	</div>
+	<!-- fim cursos -->
+
+	<!-- rodapé -->
+	<footer class="text-light text-center bg-dark">
+		<p>SportsPrimus - Tous droits réservés</p>
+	</footer>
+	<!-- fim rodapé -->
+
+	<script src="public/js/jquery.js"></script>
+	<script src="public/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
